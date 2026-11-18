@@ -58,7 +58,7 @@ The table below lists leading commercial LMS and corporate training platforms, s
 
 Community-driven, self-hosted LMS solutions providing full data sovereignty, zero per-seat licensing fees, and extensibility. Sorted in descending order by GitHub stargazers.
 
-| Project 🔓 | GitHub Stars ⭐ | Stack 🛠️ | License 📄 | Compliance &amp; Standards 📜 | Key Differentiators 💡 |
+| Project 🔓 | GitHub_Stars ⭐ | Stack 🛠️ | License 📄 | Compliance &amp; Standards 📜 | Key Differentiators 💡 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **[BigBlueButton](https://github.com/bigbluebutton/bigbluebutton)** | [![Stars](https://img.shields.io/github/stars/bigbluebutton/bigbluebutton?style=social&color=white)](https://github.com/bigbluebutton/bigbluebutton/stargazers) | Scala, Java, Node.js, WebRTC | LGPL-3.0 | LTI 1.3, Canvas/Moodle Plugin | Real-time virtual classroom system with interactive whiteboards, breakout rooms, and session recording |
 | **[Open edX](https://github.com/openedx/openedx-platform)** | [![Stars](https://img.shields.io/github/stars/openedx/openedx-platform?style=social&color=white)](https://github.com/openedx/openedx-platform/stargazers) | Python, Django, React | AGPL-3.0 | xAPI, LTI 1.1/1.3, XBlocks | The MOOC-scale platform created by MIT and Harvard powering edX.org, capable of millions of learners |
@@ -142,7 +142,7 @@ Contributions are warmly welcomed! 🙌 If you know of an innovative open-source
 
 1. 🍴 **Fork this repository**
 2. 🌿 **Create a feature branch** (`git checkout -b feature/add-new-lms-tool`)
-3. ✍️ **Add the tool** with precise details (Stack, License, Stars badge linked to stargazers, key differentiators)
+3. ✍️ **Add the tool** with precise details (Stack, License, Stars_Badge linked to stargazers, key differentiators)
 4. 💾 **Commit your changes** (`git commit -m 'Add new open-source LMS tool'`)
 5. 🚀 **Push to the branch** (`git push origin feature/add-new-lms-tool`)
 6. 📬 **Submit a Pull Request**
