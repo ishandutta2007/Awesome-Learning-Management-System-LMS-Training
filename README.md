@@ -120,8 +120,7 @@ When evaluating a Learning Management System for your organization, prioritize t
 
 ---
 
-## 📈 Star History
-
+##  Star History
 [![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Learning-Management-System-LMS-Training&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Learning-Management-System-LMS-Training&type=date&legend=top-left)
 
 ---
