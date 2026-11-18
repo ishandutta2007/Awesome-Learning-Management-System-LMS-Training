@@ -1,157 +1,161 @@
-# Awesome-Learning-Management-System-LMS-Training
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Learning Management System (LMS) &amp; Training Banner" width="100%" />
+</p>
 
-# Awesome-Learning-Management-System-LMS-Training
+# 🎓 Awesome Learning Management System (LMS) &amp; Training
 
-# Awesome Learning Management System (LMS) & Training
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Learning-Management-System-LMS-Training"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-> A curated list of top Learning Management System (LMS) and Training platforms — both SaaS/Hosted commercial solutions and open-source alternatives for delivering courses, tracking learner progress, and managing corporate training.
+> 📚 A curated directory of top **Learning Management Systems (LMS)**, **Corporate Training Platforms**, **Course Authoring Engines**, and **Open-Source eLearning Architectures** for delivering courses, tracking learner certifications, and scaling organizational education.
+>
 > 🌟 Star this repo if you find it useful! 🌟
 
 ---
 
 ## 📋 Table of Contents
 
-- [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-  - [TalentLMS](#talentlms)
-  - [Docebo](#docebo)
-  - [Absorb LMS](#absorb-lms)
-  - [LearnUpon](#learnupon)
-  - [360Learning](#360learning)
-  - [Cornerstone OnDemand](#cornerstone-ondemand)
-  - [SAP Litmos](#sap-litmos)
-- [Open-Source Software](#-open-source-software)
-  - [Moodle](#moodle)
-  - [Open edX](#open-edx)
-  - [Canvas LMS](#canvas-lms)
-  - [Chamilo](#chamilo)
-  - [ILIAS](#ilias)
-  - [Frappe LMS](#frappe-lms)
-  - [TutorLoom](#tutorloom)
-  - [Euron Open LMS](#euron-open-lms)
-  - [Scholiq (Nextcloud)](#scholiq-nextcloud)
+- [🌐 Sector Overview &amp; Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 Enterprise SaaS &amp; Hosted Platforms](#-enterprise-saas--hosted-platforms)
+- [🔓 Open-Source Software &amp; Frameworks](#-open-source-software--frameworks)
+- [📊 Feature Comparison Matrix](#-feature-comparison-matrix)
+- [🎯 Key Selection Criteria for LMS &amp; Training](#-key-selection-criteria-for-lms--training)
+- [⭐ Star History](#-star-history)
+- [💖 Support](#-support)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
 
 ---
 
-## 🟦 SaaS / Hosted Platforms
+## 🌐 Sector Overview &amp; Market Dynamics
 
-Commercial, cloud-hosted LMS and Training platforms. These are not open-source but are included as reference points for feature comparison.
+The global Learning Management System (LMS) market was valued at approximately **$20.6 billion to $24.8 billion in 2024** and is projected to expand to over **$82.5 billion by 2030**, compounding at an estimated CAGR of **18.1% to 19.5%**. This explosive growth is accelerated by remote and hybrid workforce training, continuous corporate compliance mandates, generative AI-driven adaptive learning paths, and digital transformation in higher education and K-12 schooling.
 
-### TalentLMS
-**Type:** SMB-focused cloud LMS
-TalentLMS provides course creation, assessments, learning paths, and reporting with a focus on ease of use for small and mid-sized businesses. It offers a free tier for up to 5 users, with paid plans scaling by user count and feature depth.
-
-### Docebo
-**Type:** Enterprise AI-powered LMS
-Docebo provides a comprehensive enterprise LMS with AI-driven content creation, personalized learning paths, and social learning features. It is positioned for large organizations needing scalability and integrations with HR and CRM systems.
-
-### Absorb LMS
-**Type:** Corporate training LMS
-Absorb provides a modern LMS with strong reporting, e-commerce capabilities, and integrations with Salesforce and other business tools. It is positioned for mid-market to enterprise organizations delivering external training or customer education.
-
-### LearnUpon
-**Type:** LMS for customer and partner training
-LearnUpon focuses on external training use cases, with multi-portal support for different audiences (customers, partners, employees) and strong e-commerce capabilities. It is positioned for organizations monetizing training or delivering partner enablement.
-
-### 360Learning
-**Type:** Collaborative learning platform
-360Learning emphasizes user-generated content and collaborative learning, with tools for subject-matter experts to create courses quickly. It is positioned for organizations wanting to leverage internal expertise rather than top-down course development.
-
-### Cornerstone OnDemand
-**Type:** Enterprise talent management with LMS
-Cornerstone provides an LMS integrated with broader talent management capabilities including performance, recruiting, and succession planning. It is positioned for large enterprises wanting a unified HCM and learning platform.
-
-### SAP Litmos
-**Type:** Corporate LMS within SAP ecosystem
-SAP Litmos provides a cloud LMS with course delivery, assessments, and reporting, integrated with the broader SAP ecosystem. It is positioned for organizations already using SAP SuccessFactors or other SAP products.
+Market concentration follows a **moderately fragmented structure** rather than a winner-take-all monopoly. While enterprise cloud heavyweights (such as Cornerstone OnDemand, SAP SuccessFactors/Litmos, and Docebo) and academic leaders (Instructure Canvas, Anthology Blackboard) capture substantial corporate and institutional budgets, thousands of agile SaaS platforms (TalentLMS, 360Learning, LearnUpon) and vibrant open-source communities (Moodle, Open edX, Frappe LMS) actively compete by catering to specialized niches like customer training, collaborative peer learning, and self-hosted data sovereignty.
 
 ---
 
-## 🟩 Open-Source Software
+## 🏢 Enterprise SaaS &amp; Hosted Platforms
 
-Self-hosted, community-driven LMS and Training tools. The open-source ecosystem spans **mature enterprise platforms**, **MOOC-scale systems**, **lighter alternatives**, and **framework-specific solutions**.
+The table below lists leading commercial LMS and corporate training platforms, sorted in descending order by company valuation or parent acquisition scale.
 
-### Moodle
-**Stack:** PHP / MySQL/PostgreSQL | **License:** GPL-3.0
-Moodle is the most widely deployed open-source LMS in the world, used by schools, universities, and corporations in over **240 countries** [citation:2]. It handles the full spectrum of learning needs: courses, **40+ quiz question types**, assignments with rubrics, forums, wikis, SCORM 1.2/2004 packages, competency frameworks, badges, and granular role-based permissions [citation:2]. Its plugin ecosystem includes **2,000+ extensions** covering plagiarism detection, virtual labs, and more. A mobile app is available, and Docker deployment is straightforward via Bitnami images [citation:2]. **Trade-offs:** The admin interface is complex with hundreds of settings; the default theme feels dated; and it is resource-heavy (4+ GB RAM recommended for concurrent users) [citation:2].  
-**Best for:** Educational institutions, corporate training departments, and anyone needing a feature-complete, proven LMS with the largest plugin ecosystem.
-
-### Open edX
-**Stack:** Python / Django | **License:** AGPL-3.0
-Open edX is the platform behind edX.org, built by MIT and Harvard, and is purpose-built for **massive open online courses (MOOCs)** [citation:2]. It excels at video-based learning paths, discussion forums, **auto-graded programming exercises** via XBlocks, certificate generation, and analytics dashboards. Deployment is managed via the **Tutor CLI**, which orchestrates a complex multi-container stack [citation:2]. **Trade-offs:** Resource-heavy (8+ GB RAM recommended for production); complex microservices architecture; steeper learning curve for course creators; and overkill for small teams [citation:2].  
-**Best for:** Universities with large enrollments, organizations delivering self-paced training at MOOC scale, and teams needing auto-graded coding exercises.
-
-### Canvas LMS
-**Stack:** Ruby on Rails | **License:** AGPL-3.0
-Canvas LMS is a full-featured open-source LMS with a **modern interface** and a clean assignment workflow that students and instructors actually like [citation:2]. It handles course creation, enrollment, assessments, gradebook, content delivery, and user roles, with a plugin ecosystem for extending functionality [citation:12]. Canvas Cloud costs $5,000–50,000+ per year for institutional licenses, making self-hosting a significant cost saver [citation:2].  
-**Best for:** Educational institutions and training organizations prioritizing user experience and modern UI over the broadest possible feature set.
-
-### Chamilo
-**Stack:** PHP / MariaDB/MySQL | **License:** GPL-3.0
-Chamilo is a lighter LMS that prioritizes **usability over feature breadth**, with a cleaner admin interface than Moodle and a smaller resource footprint (2 GB RAM is workable) [citation:2]. It supports quizzes, assignments, learning paths, **SCORM packages**, and social learning features (student profiles, messaging). Video conferencing is integrated via BigBlueButton [citation:2]. Deployment is available via Railway with a pre-configured template that runs the installer automatically [citation:15]. **Trade-offs:** Smaller plugin ecosystem and community than Moodle; SCORM support is less robust [citation:2].  
-**Best for:** Small schools, training companies, and teams that want an LMS without Moodle's complexity.
-
-### ILIAS
-**Stack:** PHP / MySQL | **License:** GPL-3.0
-ILIAS is a German-engineered LMS with particularly strong **assessment and competency tracking** features, widely used in corporate compliance training and government education in Europe [citation:2]. It supports SCORM 2004, IMS-QTI import/export, online exams, question pools, and detailed learning progress control [citation:13]. The repository-based architecture allows content to function as an open knowledge platform, not just locked courses [citation:13].  
-**Best for:** Organizations delivering compliance training and requiring detailed competency tracking, particularly in European markets.
-
-### Frappe LMS
-**Stack:** Python / Frappe Framework / Vue | **License:** GPL-3.0
-Frappe LMS is a **100% open-source** LMS built on the Frappe framework (the same ecosystem as ERPNext) [citation:7]. It provides a structured environment for creating and delivering curricula organized into courses, chapters, and lessons, with role-based access control. Its metadata-driven architecture defines entities and schemas through JSON, enabling runtime customization [citation:7]. **Note:** Specific SCORM/xAPI support is not confirmed in available documentation [citation:7].  
-**Best for:** Organizations already in the Frappe/ERPNext ecosystem wanting an LMS integrated with their broader business applications.
-
-### TutorLoom
-**Stack:** Django / React / PostgreSQL / Redis / Celery | **License:** Apache-2.0
-TutorLoom is a **self-hosted, multi-tenant LMS** designed for training institutes and teams, with a course builder, trainer and student portals, and progress tracking [citation:4]. It includes a **Flutter mobile app** for students, with configuration via environment variables and Celery for background tasks. The API includes Swagger/ReDoc documentation [citation:4].  
-**Best for:** Training institutes and teams wanting a modern, multi-tenant LMS with a mobile app, accepting the Django/React stack requirements.
-
-### Euron Open LMS
-**Stack:** TypeScript / Node.js / React Native | **License:** Open Source
-Euron Open LMS provides a full learning platform with a **native mobile app for iOS and Android** (React Native), including offline encrypted video downloads, quizzes, assignments, certificates, and in-app payments (Razorpay on Android, Stripe via web return on iOS) [citation:9]. The architecture is API-first, with the server controlling access, prices, and video licenses. The mobile app supports TOTP two-factor authentication, push notifications, and deep links [citation:9].  
-**Best for:** Organizations wanting a modern LMS with a native mobile app and offline video support, accepting the TypeScript/React Native stack.
-
-### Scholiq (Nextcloud)
-**Stack:** PHP / Vue / Nextcloud / PostgreSQL | **License:** Open Source
-Scholiq is a compliance-training and LMS app for **Nextcloud**, with lifecycle-gated publishing (draft → published → archived), cmi5/xAPI/SCORM content runtime, enrolment with due-date reminders, **Open Badges 3.0 certification** with public verification, and a **compliance-audit wedge** covering NIS2, AVG, and BIO regulations [citation:8]. It includes an EU AI Act gate that requires explicit DPO acknowledgement before enabling AI features [citation:8].  
-**Best for:** Organizations already running Nextcloud that need compliance-focused training with certification and audit capabilities.
+| Platform 🏢 | Valuation / Market Scale 💰 | Starting Pricing Tier 💵 | Free Tier / Trial Limit 🎁 | Deployment Type ☁️ | Primary Focus &amp; Target Audience 🎯 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **[Cornerstone OnDemand](https://www.cornerstoneondemand.com/)** | **~$5.2 Billion** (Private Equity Acquisition) | **$3.50 – $8.00 / user / month** (PEPM, quote-based by scale) | **No Free Trial / Free Tier**: Sales-led guided demo and sandbox upon qualification | Cloud SaaS / Multi-tenant | Enterprise HCM, workforce intelligence, talent management &amp; compliance |
+| **[Litmos](https://www.litmos.com/)** | **~$1.0+ Billion** (Acquired by Francisco Partners) | **$8,000 / year** (Foundation Tier base minimum) | **14-Day Free Trial**: Full self-serve evaluation with courses &amp; workflows | Cloud SaaS | Corporate training, rapid content authoring &amp; partner certifications |
+| **[Docebo](https://www.docebo.com/)** | **~$800 Million** (Public NASDAQ: DCBO / $268M Rev) | **$35,900 / year** (Elevate tier, includes 500 YAU) | **No Free Tier / Free Trial**: Sales-assisted guided demo &amp; bespoke pilot sandbox | Cloud SaaS / Multi-tenant | Mid-market &amp; enterprise AI learning paths, social learning &amp; CRM integration |
+| **[Absorb LMS](https://www.absorblms.com/)** | **~$500 Million** (Acquired by WCAS PE / ~$69M ARR) | **$14,500 / year** (Base entry deployment, ~500 users) | **Free Demo Portal / Pilot**: No self-serve plan; temporary sales-led test tenant | Cloud SaaS | Mid-market to enterprise compliance, customer enablement &amp; training sales |
+| **[360Learning](https://360learning.com/)** | **~$400 Million** (SoftBank/Silver Lake / ~$60M Rev) | **$8 / user / month** (Team Plan, up to 100 users) | **30-Day Free Trial**: Team plan self-serve trial; no credit card required upfront | Cloud SaaS | Collaborative learning, peer course authoring &amp; internal upskilling |
+| **[LearnUpon](https://www.learnupon.com/)** | **~$100M+ Funded** (Summit Partners / ~$40M ARR) | **$10,000 / year** (~$6 – $9 / user / mo, min 100 users) | **No Free Tier / Trial**: Sales-led personalized demo; pilot portals on request | Cloud SaaS / Multi-portal | Customer onboarding, partner academies, associations &amp; external training |
+| **[TalentLMS](https://www.talentlms.com/)** | **Private / Bootstrap-Scaled** (Epignosis subsidiary) | **$119 / month** (Core Plan billed annually, up to 40 users) | **Free Forever Plan**: Up to **5 active users** &amp; **10 courses** (no expiration) | Cloud SaaS | Small-to-midsize businesses (SMBs), rapid course setup &amp; onboarding |
 
 ---
 
-## 📊 Comparison at a Glance
+## 🔓 Open-Source Software &amp; Frameworks
 
-| Software | License | Stack | SCORM/xAPI | Mobile App | Self-Hosted | Best For |
-|----------|---------|-------|------------|------------|-------------|----------|
-| **Moodle** | GPL-3.0 | PHP/MySQL | ✅ SCORM 1.2/2004 | ✅ Moodle App | ✅ | Full-featured enterprise LMS |
-| **Open edX** | AGPL-3.0 | Python/Django | ✅ xAPI via XBlocks | ❌ | ✅ | MOOCs + auto-graded coding |
-| **Canvas LMS** | AGPL-3.0 | Ruby/Rails | ✅ | (Check) | ✅ | Modern UI + assignments |
-| **Chamilo** | GPL-3.0 | PHP/MariaDB | ✅ (less robust) | ❌ | ✅ | Lighter Moodle alternative |
-| **ILIAS** | GPL-3.0 | PHP/MySQL | ✅ SCORM 2004 | ❌ | ✅ | Compliance + competency tracking |
-| **Frappe LMS** | GPL-3.0 | Python/Frappe | (Not confirmed) | ❌ | ✅ | ERPNext ecosystem |
-| **TutorLoom** | Apache-2.0 | Django/React | ❌ | ✅ Flutter | ✅ | Multi-tenant training institutes |
-| **Euron Open LMS** | Open Source | TS/React Native | ✅ | ✅ Native | ✅ | Mobile + offline video |
-| **Scholiq** | Open Source | PHP/Nextcloud | ✅ cmi5/xAPI/SCORM | (PWA) | ✅ (Nextcloud) | Compliance + audit |
+Community-driven, self-hosted LMS solutions providing full data sovereignty, zero per-seat licensing fees, and extensibility. Sorted in descending order by GitHub stargazers.
+
+| Project 🔓 | GitHub Stars ⭐ | Stack 🛠️ | License 📄 | Compliance &amp; Standards 📜 | Key Differentiators 💡 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **[BigBlueButton](https://github.com/bigbluebutton/bigbluebutton)** | [![Stars](https://img.shields.io/github/stars/bigbluebutton/bigbluebutton?style=social&color=white)](https://github.com/bigbluebutton/bigbluebutton/stargazers) | Scala, Java, Node.js, WebRTC | LGPL-3.0 | LTI 1.3, Canvas/Moodle Plugin | Real-time virtual classroom system with interactive whiteboards, breakout rooms, and session recording |
+| **[Open edX](https://github.com/openedx/openedx-platform)** | [![Stars](https://img.shields.io/github/stars/openedx/openedx-platform?style=social&color=white)](https://github.com/openedx/openedx-platform/stargazers) | Python, Django, React | AGPL-3.0 | xAPI, LTI 1.1/1.3, XBlocks | The MOOC-scale platform created by MIT and Harvard powering edX.org, capable of millions of learners |
+| **[Moodle](https://github.com/moodle/moodle)** | [![Stars](https://img.shields.io/github/stars/moodle/moodle?style=social&color=white)](https://github.com/moodle/moodle/stargazers) | PHP, MariaDB/PostgreSQL | GPL-3.0 | SCORM 1.2/2004, LTI, Badges | World’s most widely deployed institutional LMS with 2,000+ plugins, 40+ quiz question types, and global support |
+| **[Canvas LMS](https://github.com/instructure/canvas-lms)** | [![Stars](https://img.shields.io/github/stars/instructure/canvas-lms?style=social&color=white)](https://github.com/instructure/canvas-lms/stargazers) | Ruby on Rails, React | AGPL-3.0 | LTI Advantage, Common Cartridge | The open core behind Instructure Canvas, featuring best-in-class UI/UX, SpeedGrader, and mobile integration |
+| **[Frappe LMS](https://github.com/frappe/lms)** | [![Stars](https://img.shields.io/github/stars/frappe/lms?style=social&color=white)](https://github.com/frappe/lms/stargazers) | Python, Frappe, Vue.js | GPL-3.0 | REST API, Webhooks | Modern, lightweight, 100% open-source LMS seamlessly integrated with the ERPNext enterprise ecosystem |
+| **[Learnhouse](https://github.com/learnhouse/learnhouse)** | [![Stars](https://img.shields.io/github/stars/learnhouse/learnhouse?style=social&color=white)](https://github.com/learnhouse/learnhouse/stargazers) | Python, FastAPI, Next.js | AGPL-3.0 | REST API, Docker | Next-generation modern learning platform focused on sleek developer UX, rapid course publishing, and markdown support |
+| **[ClassroomIO](https://github.com/classroomio/classroomio)** | [![Stars](https://img.shields.io/github/stars/classroomio/classroomio?style=social&color=white)](https://github.com/classroomio/classroomio/stargazers) | SvelteKit, Supabase, PostgreSQL | MIT | xAPI / Webhooks | Customer training and enablement platform built for SaaS companies to drive product education and retention |
+| **[CourseLit](https://github.com/codelitdev/courselit)** | [![Stars](https://img.shields.io/github/stars/codelitdev/courselit?style=social&color=white)](https://github.com/codelitdev/courselit/stargazers) | TypeScript, Node.js, Next.js | AGPL-3.0 | Stripe / PayPal / Webhooks | Self-hosted creator academy alternative to Teachable/Thinkific with built-in payments, blogging, and digital products |
+| **[Sakai](https://github.com/sakaiproject/sakai)** | [![Stars](https://img.shields.io/github/stars/sakaiproject/sakai?style=social&color=white)](https://github.com/sakaiproject/sakai/stargazers) | Java, Spring, React | ECL-2.0 | IMS LTI 1.3, SCORM 2004 | Higher-education collaboration suite and enterprise academic LMS supported by leading international universities |
+| **[Tutor (Open edX)](https://github.com/overhangio/tutor)** | [![Stars](https://img.shields.io/github/stars/overhangio/tutor?style=social&color=white)](https://github.com/overhangio/tutor/stargazers) | Python, Docker, Compose | AGPL-3.0 | Open edX Ecosystem | Official Docker and Kubernetes orchestrator for Open edX deployment, maintenance, and multi-tenant clustering |
+| **[Chamilo](https://github.com/chamilo/chamilo-lms)** | [![Stars](https://img.shields.io/github/stars/chamilo/chamilo-lms?style=social&color=white)](https://github.com/chamilo/chamilo-lms/stargazers) | PHP, MariaDB, Symfony | GPL-3.0 | SCORM 1.2, xAPI, LTI | Accessible, user-friendly alternative to Moodle designed for easy teacher onboarding and low-bandwidth environments |
+| **[Pupilfirst](https://github.com/pupilfirst/pupilfirst)** | [![Stars](https://img.shields.io/github/stars/pupilfirst/pupilfirst?style=social&color=white)](https://github.com/pupilfirst/pupilfirst/stargazers) | Ruby on Rails, Rescript, React | Apache-2.0 | GraphQL API | Asynchronous online school and vocational bootcamp engine driven by task evaluations, reviews, and community |
+| **[Sensei LMS](https://github.com/Automattic/sensei)** | [![Stars](https://img.shields.io/github/stars/Automattic/sensei?style=social&color=white)](https://github.com/Automattic/sensei/stargazers) | PHP, WordPress, React | GPL-2.0 | WooCommerce, WordPress Hook | Native WordPress LMS plugin developed by Automattic for building, managing, and selling courses |
+| **[ILIAS](https://github.com/ILIAS-eLearning/ILIAS)** | [![Stars](https://img.shields.io/github/stars/ILIAS-eLearning/ILIAS?style=social&color=white)](https://github.com/ILIAS-eLearning/ILIAS/stargazers) | PHP, MySQL, Lucene | GPL-3.0 | SCORM 1.2/2004, LTI | Heavy-duty compliance, competency management, and assessment platform popular in European government and universities |
+| **[TutorLoom](https://github.com/pacewisdomhq/TutorLoom)** | [![Stars](https://img.shields.io/github/stars/pacewisdomhq/TutorLoom?style=social&color=white)](https://github.com/pacewisdomhq/TutorLoom/stargazers) | Django, React, Celery, Flutter | Apache-2.0 | OpenAPI / Swagger | Multi-tenant training institute system with trainer/student portals, progress tracking, and a companion Flutter app |
+| **[Euron Open LMS](https://github.com/euron-sde-team/euron-open-lms)** | [![Stars](https://img.shields.io/github/stars/euron-sde-team/euron-open-lms?style=social&color=white)](https://github.com/euron-sde-team/euron-open-lms/stargazers) | TypeScript, Node.js, React Native | Open Source | Stripe, Razorpay, HLS Video | Video-centric LMS with offline encrypted mobile playback, verifiable certificates, and cloud infrastructure as code |
+
+---
+
+## 📊 Feature Comparison Matrix
+
+| Platform / Tool | Type | SCORM / xAPI Support | Native Mobile App | Self-Hosted Option | Top Use Case |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Cornerstone OnDemand** | SaaS | ✅ SCORM / xAPI / AICC | ✅ iOS &amp; Android | ❌ Managed Cloud | Enterprise workforce planning &amp; HCM compliance |
+| **Litmos** | SaaS | ✅ SCORM 1.2/2004, xAPI | ✅ iOS &amp; Android | ❌ Managed Cloud | Corporate compliance &amp; rapid sales training |
+| **Docebo** | SaaS | ✅ SCORM, xAPI, cmi5 | ✅ iOS &amp; Android | ❌ Managed Cloud | AI-curated personalized enterprise learning |
+| **Absorb LMS** | SaaS | ✅ SCORM, xAPI, AICC | ✅ Absorb Learn | ❌ Managed Cloud | Mid-market employee training &amp; external selling |
+| **360Learning** | SaaS | ✅ SCORM 1.2/2004 | ✅ iOS &amp; Android | ❌ Managed Cloud | Peer-to-peer collaborative knowledge sharing |
+| **LearnUpon** | SaaS | ✅ SCORM, xAPI, Tin Can | ✅ iOS &amp; Android | ❌ Managed Cloud | Multi-portal customer education &amp; academies |
+| **TalentLMS** | SaaS | ✅ SCORM 1.2/2004, xAPI | ✅ TalentLMS App | ❌ Managed Cloud | Fast SMB course publishing &amp; team onboarding |
+| **BigBlueButton** | FOSS | 🔄 Integrated into LMS | ✅ WebRTC Responsive | ✅ Self-Hosted | Real-time virtual classrooms &amp; tutoring sessions |
+| **Open edX** | FOSS | ✅ xAPI via XBlocks | ✅ iOS &amp; Android SDK | ✅ Self-Hosted / Tutor | Higher-ed MOOCs &amp; automated code grading |
+| **Moodle** | FOSS | ✅ Full SCORM &amp; LTI | ✅ Moodle Mobile | ✅ Self-Hosted / Docker | Full-featured institutional &amp; enterprise LMS |
+| **Canvas LMS** | FOSS | ✅ LTI 1.3 / Cartridge | ✅ Canvas Student/Teacher | ✅ Self-Hosted Core | Modern higher-ed &amp; K-12 academic workflow |
+| **Frappe LMS** | FOSS | 🔄 Via REST / Frappe | ❌ Responsive Web | ✅ Self-Hosted Core | ERPNext-connected internal corporate academy |
+| **Learnhouse** | FOSS | 🔄 Webhooks / Markdown | ❌ Responsive Web | ✅ Self-Hosted / Docker | Fast developer-first educational content |
+| **ClassroomIO** | FOSS | 🔄 Webhooks &amp; Events | ❌ Responsive Web | ✅ Self-Hosted Core | Customer product training &amp; SaaS adoption |
+| **CourseLit** | FOSS | 🔄 Video / Content CMS | ❌ Responsive Web | ✅ Self-Hosted / Node | Independent creators selling course subscriptions |
+| **Sakai** | FOSS | ✅ SCORM 2004, LTI 1.3 | ❌ Responsive Web | ✅ Self-Hosted / Java | Academic university research &amp; course portals |
+| **Chamilo** | FOSS | ✅ SCORM 1.2 | ❌ Responsive Web | ✅ Self-Hosted / PHP | Lightweight, low-overhead school deployments |
+| **Pupilfirst** | FOSS | 🔄 Task Workflow API | ❌ Responsive Web | ✅ Self-Hosted / Ruby | Asynchronous project-based bootcamps &amp; review |
+| **Sensei LMS** | FOSS | 🔄 Via WP Plugins | ❌ WordPress Web | ✅ Self-Hosted / WP | WordPress site owners monetizing digital courses |
+| **ILIAS** | FOSS | ✅ SCORM 1.2/2004, LTI | ❌ Responsive Web | ✅ Self-Hosted / PHP | European enterprise compliance &amp; certification |
+| **TutorLoom** | FOSS | 🔄 REST API | ✅ Flutter App | ✅ Self-Hosted / Django | Multi-tenant training institutes &amp; academies |
+| **Euron Open LMS** | FOSS | 🔄 HLS DRM / REST | ✅ React Native (Offline) | ✅ Self-Hosted / TS | Video streaming platforms &amp; mobile learners |
+
+---
+
+## 🎯 Key Selection Criteria for LMS &amp; Training
+
+When evaluating a Learning Management System for your organization, prioritize these essential evaluation pillars:
+
+1. **Learning Standards &amp; Interoperability** 📜: Ensure native support for **SCORM (1.2 / 2004)**, **xAPI (Experience API / Tin Can)**, **cmi5**, and **LTI (Learning Tools Interoperability 1.3)** to prevent course vendor lock-in and enable third-party content imports.
+2. **Delivery Architecture (SaaS vs. Self-Hosted)** 🏗️: Choose commercial SaaS (TalentLMS, Docebo, Litmos) when you require zero infrastructure maintenance and turn-key compliance. Choose open-source (Moodle, Open edX, Canvas LMS, Frappe LMS) when strict data privacy, HIPAA/GDPR regulatory custody, or unlimited seat scaling is mandatory.
+3. **Audience Segmentation &amp; Multi-Tenancy** 🏢: If training both internal staff and external clients/dealers, verify whether the platform supports independent white-labeled sub-portals with distinct branding and catalogs (e.g., LearnUpon, Cornerstone, TutorLoom).
+4. **Mobile Learning &amp; Offline Consumption** 📱: High completion rates depend on intuitive mobile apps with push reminders and offline DRM content download capabilities (e.g., Moodle App, Canvas Student, Euron Open LMS).
+5. **AI Authoring &amp; Assessment Automation** 🤖: Modern LMS platforms dramatically cut course development cycles by using AI to auto-generate video chapters, flashcards, knowledge checks, and localized multi-language subtitles.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Learning-Management-System-LMS-Training&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Learning-Management-System-LMS-Training&type=date&legend=top-left)
+
+---
+
+## 💖 Support
+
+Thank you for visiting and using this curated directory! If you find this project valuable for your team's learning infrastructure, please consider supporting it:
+
+- ⭐ **Star this repository** to improve discoverability for educators, architects, and engineering leaders
+- 🍴 **Fork and contribute** new open-source platforms, innovative training tools, or deployment guides
+- 📢 **Share** this collection with your EdTech, HR Tech, and DevOps communities
+- ☕ **Sponsor**: Support ongoing curation of open-source knowledge bases via [GitHub Sponsors](https://github.com/sponsors/ishandutta2007)
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you know of an open-source LMS or Training tool that should be listed here, please open a pull request with:
+Contributions are warmly welcomed! 🙌 If you know of an innovative open-source LMS, video learning system, or training tool that belongs on this list:
 
-- Project name and URL
-- Brief description (1–2 sentences)
-- Stack and license
-- Why it stands out
-
-Please ensure the project is actively maintained (releases within the last 12 months) and genuinely open-source.
-
-**Note on the open-source ecosystem:** The open-source LMS landscape is **led decisively by Moodle** for breadth, adoption, and plugin ecosystem (2,000+ extensions, 240+ countries, SCORM/LTI compliance) [citation:2]. **Open edX** is the strongest choice for MOOC-scale delivery and auto-graded coding exercises [citation:2]. **Canvas LMS** offers the best modern UI/UX [citation:2], while **Chamilo** provides a lighter alternative for small teams [citation:2] and **ILIAS** excels at compliance and competency tracking [citation:2]. For organizations in specific ecosystems, **Frappe LMS** integrates with ERPNext [citation:7], **TutorLoom** offers multi-tenant training institutes a Django/React stack [citation:4], **Euron Open LMS** provides a native mobile app with offline video [citation:9], and **Scholiq** brings compliance-focused LMS to Nextcloud [citation:8]. No single open-source project fully replicates the managed simplicity of TalentLMS or the AI depth of Docebo, but these tools cover the core course delivery, assessment, and tracking workflows comprehensively for self-hosted deployments.
+1. 🍴 **Fork this repository**
+2. 🌿 **Create a feature branch** (`git checkout -b feature/add-new-lms-tool`)
+3. ✍️ **Add the tool** with precise details (Stack, License, Stars badge linked to stargazers, key differentiators)
+4. 💾 **Commit your changes** (`git commit -m 'Add new open-source LMS tool'`)
+5. 🚀 **Push to the branch** (`git push origin feature/add-new-lms-tool`)
+6. 📬 **Submit a Pull Request**
 
 ---
 
 ## 📄 License
 
-This list is released under CC0 1.0 Universal (Public Domain). The software projects listed retain their respective licenses.
+This repository is distributed under the [CC0 1.0 Universal (Public Domain)](https://creativecommons.org/publicdomain/zero/1.0/) license. Individual products, software packages, and tools mentioned retain their respective copyrights and licensing terms.
 
 ---
 
-⭐ **If this list helped you discover a useful tool, please star the repo!** ⭐
+<p align="center">
+  <b>⭐ If this guide helps your educational architecture or corporate training strategy, please star the repository! ⭐</b>
+</p>
